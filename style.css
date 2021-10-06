@@ -1,8 +1,24 @@
+@font-face {
+    font-family: robotobold;
+    src: url(betu/Roboto-Bold.ttf);
+  }
 body{
     background-color: black;
+    font-family: robotobold;
+    color: white;
 }
 h1{
     text-align: center;
+    font-size: 60px;
+}
+table{
+    width: 80%;
+    border-top: 3px solid white;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
     color: white;
-    font-size: 80px;
+    text-decoration-line: none;
 }
