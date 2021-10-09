@@ -2,6 +2,10 @@
     font-family: robotobold;
     src: url(betu/Roboto-Bold.ttf);
   }
+  @font-face {
+      font-family: tesla;
+      src: url(betu/TESLA.ttf);
+  }
 body{
     background-color: black;
     font-family: robotobold;
@@ -10,6 +14,8 @@ body{
 h1{
     text-align: center;
     font-size: 60px;
+    font-family: tesla;
+    letter-spacing: 10px;
 }
 table{
     width: 80%;
@@ -18,7 +24,34 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
-a{
+.button {
     color: white;
-    text-decoration-line: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: robotobold;
+  }
+  .button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+  }
+  .button:active{
+    color: black;
+    background-color: grey;
+  }
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: robotobold;
+    font-size: 50px;
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
