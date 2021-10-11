@@ -2,9 +2,9 @@
     font-family: robotobold;
     src: url(betu/Roboto-Bold.ttf);
   }
-  @font-face {
-      font-family: tesla;
-      src: url(betu/TESLA.ttf);
+ @font-face {
+    font-family: tesla;
+    src: url(betu/TESLA.ttf);
   }
 body{
     background-color: black;
