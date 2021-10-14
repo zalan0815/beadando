@@ -12,10 +12,19 @@ body{
     color: white;
 }
 h1{
+  text-align: center;
+  letter-spacing: 10px;
+}
+a{
     text-align: center;
     font-size: 60px;
     font-family: tesla;
-    letter-spacing: 10px;
+    color: white;
+    text-decoration-line: none;
+}
+h1:hover{
+    transform: scale(1.2);
+    transition: transform 200ms;
 }
 table{
     width: 80%;
