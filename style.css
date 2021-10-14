@@ -6,6 +6,9 @@
     font-family: tesla;
     src: url(betu/TESLA.ttf);
   }
+html{
+  font-family: robotobold;
+}
 body{
     background-color: black;
     font-family: robotobold;
@@ -51,6 +54,23 @@ table{
     color: black;
     background-color: grey;
   }
+.button2{
+  color: white;
+  background-color: #0098ff;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: robotobold;
+  border-radius: 20px;
+}
+  .button2:hover{
+    background-color: #0060ff;
+  }
+  .button2:active{
+    background-color: #4610ff;
+  }
 .container {
     position: relative;
     text-align: center;
@@ -61,6 +81,12 @@ table{
 .centered {
   position: absolute;
   top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottomed {
+  position: absolute;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
