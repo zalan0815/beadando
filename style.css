@@ -23,7 +23,7 @@ a{
     font-size: 60px;
     font-family: tesla;
     color: white;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 h1:hover{
     transform: scale(1.2);
