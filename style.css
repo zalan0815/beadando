@@ -92,9 +92,34 @@ table{
   transform: translate(-50%, -50%);
 }
 .footer{
-  
   background-color: black;
   color: white;
   text-align: center;
   font-family: robotobold;
+  font-size: 20px;
 }
+.kulonbutton{
+  color: black;
+  background-color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: robotobold;
+  border-radius: 100px;
+}       
+.cim{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}              
+.alcim{
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}                                            
+
