@@ -19,7 +19,7 @@ h1{
   text-align: center;
   letter-spacing: 10px;
 }
-a{
+.tesla{
     text-align: center;
     font-size: 60px;
     font-family: tesla;
@@ -30,7 +30,7 @@ h1:hover{
     transform: scale(1.2);
     transition: transform 200ms;
 }
-table{
+#menu{
     width: 80%;
     border-top: 3px solid white;
     padding: 15px;
@@ -78,6 +78,10 @@ table{
     color: black;
     font-family: robotobold;
     font-size: 50px;
+    border: 0;
+}
+img{
+  display: block;
 }
 .centered {
   position: absolute;
@@ -117,9 +121,46 @@ table{
 }              
 .alcim{
   position: absolute;
-  top: 13%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
-}                                            
-
+}  
+.adatok{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  width: 70%;
+  color: white;
+}
+#adatok{
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}        
+#megnevezes{
+  font-size: 15px;
+}           
+#megrendeles{
+  border: solid 3px white;
+  border-radius: 100px;
+  background: none;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+}  
+  #megrendelesszoveg{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+  }               
+  #megrendeles:hover{
+    background-color: white;
+  }   
+  #megrendelesszoveg:hover{
+    color: black;
+  }   

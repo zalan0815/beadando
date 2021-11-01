@@ -6,23 +6,10 @@
     <meta name="Model S" content="width=device-width, initial-scale=1.0">
     <title>Model S</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .kulonbutton{
-            color: black;
-            background-color: grey;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            font-family: robotobold;
-            border-radius: 100px;
-        }
-    </style>
 </head>
 <body>
-    <h1><a href="index.html">TESLA</a></h1>
-    <table>
+    <h1><a href="index.html" class="tesla">TESLA</a></h1>
+    <table id="menu">
         <tr>
             <th><a href="models.htm" class="kulonbutton">Model S</a></th>
             <th><a href="model3.htm" class="button">Model 3</a></th>
@@ -30,5 +17,40 @@
             <th><a href="modely.htm" class="button">Model Y</a></th>
         </tr>
     </table>
+    <div class="container">
+        <img width="100%"
+            src="https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop"alt="models">
+        <div class="cim">Model S</div>
+        <div class="alcim">Plaid</div>
+        <div class="adatok">
+            <table id="adatok">
+                <tr id="szamok">
+                    <th>637 km</th>
+                    <th>2,1s</th>
+                    <th>322 km/h</th>
+                    <th>1020LE</th>
+                    <th rowspan="2">
+                        <button id="megrendeles">
+                            <a href="" id="megrendelesszoveg">Megrendelés</a>
+                        </button>
+                    </th>
+                </tr>
+                <tr id="megnevezes">
+                    <th>Hatótávolság(becsült)</th>
+                    <th>0-100 km/h</th>
+                    <th>Végsebesség</th>
+                    <th>Csúcsteljesítmény</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <img width="100%"
+            src="https://tesla-cdn.thron.com/delivery/public/image/tesla/177c0faf-b852-47ea-a218-394368e15a20/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop"alt="modelsbelso">
+    </div>
+    <footer>
+        <p class="footer">Forrás: <a class="footer" target="blank" href="https://www.tesla.com/hu_hu">https://www.tesla.com/hu_hu</a></p>
+    </footer>
 </body>
 </html>
