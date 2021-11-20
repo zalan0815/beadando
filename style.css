@@ -341,4 +341,77 @@ h2{
   #megrendeles2:hover{
     background-color: grey;
   }
+.balszoveg{
+  float: left;
+  width: 30%;
+  font-size: 20px;
+  color: darkgray;
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+  padding: 15.4px;
+}
+  #balszoveg{
+    color: black;
+    font-weight: bold;
+  }
+.jobbkep{
+  float: right;
+  width: 68%;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: robotobold;
+  font-size: 50px;
+  border: 0;
+}
+#biztonsag{
+  padding: 5px;
+  color: black;
+  background-color: grey;
+  margin-top: 20%;
+  margin-bottom: 24.6%;
+  border-radius: 30px;
+}
+.balkep{
+  clear: both;
+  position: relative;
+  border: 0;
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/d4f29128-35ad-4912-9282-32701225c77b/bvlatuR/std/1920x1080/lhd-interior-hero-desktop');
+  height: 1080px;
+}
+.jobbszoveg{
+  float: right;
+  color: white;
+  font-size: 18px;
+  width: 23%;
+  margin-top: 20%;
+}
+  #jobbszovegcim{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+#jobbszovegkep{
+  width: 50px;
+}
+#jobbszovegp{
+  padding-bottom: 60px;
+}
+.alsoszoveg{
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  #alsoszoveg{
+    color:white;
+    font-size: 20px;
+    width: 1000px;
+  }
+  #alsoszovegth{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+  }
   
