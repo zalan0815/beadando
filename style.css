@@ -414,4 +414,12 @@ h2{
     color: white;
     font-size: 30px;
   }
-  
+#osszesites{
+  color: white;
+  border-collapse: collapse; 
+  font-size: 25px;
+  margin-bottom: 20%;
+}
+  #osszesitesadat{
+    font-size: 20px;
+  }
