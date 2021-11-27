@@ -311,6 +311,8 @@ h2{
   #osszesadatalcim{
     font-size: 25px;
     border-right: 2px solid white;
+    text-align: right;
+    padding-right: 10px;
   }
   #jobbvonal{
     border-right: 2px solid white;
