@@ -381,7 +381,24 @@ h2{
   background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/d4f29128-35ad-4912-9282-32701225c77b/bvlatuR/std/1920x1080/lhd-interior-hero-desktop');
   height: 1080px;
 }
+.balkep2{
+  clear: both;
+  position: relative;
+  border: 0;
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/aa6dd4aa-c7ba-4ed6-953c-e62fc8203f07/bvlatuR/std/2880x1800/Model-Y-Interior-Hero-Desktop-CN');
+  height: 1080px;
+}
 .jobbszoveg{
+  float: right;
+  color: white;
+  font-size: 18px;
+  width: 23%;
+  margin-top: 20%;
+}
+.jobbszoveg2{
+  background-color: rgb(0, 0, 0, 20%);
+  border-radius: 10px;
+  padding: 20px;
   float: right;
   color: white;
   font-size: 18px;
@@ -424,4 +441,11 @@ h2{
 }
   #osszesitesadat{
     font-size: 20px;
+  }
+  #csomagter{
+    background-color: black;
+  }
+  #csomagtercimek{
+    width: 35%;
+    padding-left: 30%;
   }
